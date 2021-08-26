@@ -1,6 +1,11 @@
 #include <stdio.h>
 
-
+/**
+ *  * main - Prints quote
+ *   *
+ *    * Return: zero on success
+ *     *
+ *      */
 int main(void)
 {
 		int charSize = sizeof(char);
@@ -15,4 +20,4 @@ int main(void)
 										printf("Size of a long long int: %d byte(s)\n", longlongSize);
 											printf("Size of a float: %d byte(s)\n", floatSize);
 												return (0);
-}
+
