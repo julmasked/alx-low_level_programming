@@ -11,12 +11,6 @@
 */
 int main(void)
 {
-/**
-* main - positive or negative
-* Description:ramdom numbers
-* variable n has been assigned a random value
-* return: 0
-*/
 int n;
 
 srand(time(0));
