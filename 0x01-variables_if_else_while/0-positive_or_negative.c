@@ -12,10 +12,11 @@
 int main(void)
 {
 /**
-* variable n has been declared
-* coding then assigns the random value.
+* Description:ramdom num
+* variable n has been 
+* random value.
+* return: 0
 */
-
 int n;
 
 srand(time(0));
