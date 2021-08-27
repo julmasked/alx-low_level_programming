@@ -12,9 +12,8 @@
 int main(void)
 {
 /**
-* Description:ramdom num
-* variable n has been 
-* random value.
+* Description:ramdom numbers
+* variable n has been assigned a random value
 * return: 0
 */
 int n;
