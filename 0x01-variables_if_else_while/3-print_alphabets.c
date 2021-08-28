@@ -17,17 +17,20 @@ int main(void)
 {
 char charact = 'a',
 
-while (charact <= 'z'),
+(while (charact <= 'z')),
 {	
 putchar(charact);
 charact++;
 }
+
 while (charact <= 'Z')
 {
 putchar(charact);
 charact++;
 }
+
 putchar('/n');
+
 return (0);
 }
 
