@@ -17,7 +17,7 @@ int main(void)
 {
 char charact = 'a';
 
-for (charact <= 'z';
+for (charact <= 'z');
 {	
 putchar(charact);
 charact++;
