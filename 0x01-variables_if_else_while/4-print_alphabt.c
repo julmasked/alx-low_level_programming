@@ -23,7 +23,7 @@ else if (letter == 'e')
 {
 letter++;
 }
-else 
+else
 {
 putchar(letter);
 letter++;
