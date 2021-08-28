@@ -12,18 +12,16 @@
 */
 
 int main(void)
-
-
 {
 char charact = 'a';
 
-for (charact <= 'z');
+while(charact <= 'z');
 {	
 putchar(charact);
 charact++;
 }
 
-for (charact <= 'Z')
+while(charact <= 'Z');
 {
 putchar(charact);
 charact++;
