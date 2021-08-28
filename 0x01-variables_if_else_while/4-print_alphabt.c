@@ -20,12 +20,14 @@ if (letter == 'q')
 letter++;
 }
 else if (letter == 'e')
+{
 letter++;
 }
-else
+else 
 {
 putchar(letter);
 letter++;
+}
 }
 putchar('\n');
 return (0);
