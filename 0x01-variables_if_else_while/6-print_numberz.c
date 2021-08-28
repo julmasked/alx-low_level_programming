@@ -4,8 +4,8 @@
 
 /**
 *main - print digits
-*Description: display single numbers os base 10 
-*
+*Description:display single numbers
+*without char
 *Return:  0 for success
 */
 int main(void)
