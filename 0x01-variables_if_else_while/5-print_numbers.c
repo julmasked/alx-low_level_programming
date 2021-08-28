@@ -4,14 +4,15 @@
 
 /**
 *main - print digits
-*Description: display single numbers os base 10 
-*
-*Return:  0 for success
+*Description: display single numbers
+*in base 10
+*Return:0 for success
 */
+
 int main(void)
 {
 char num = '0';
-while (num <=9)
+while (num <=9 )
 {
 putchar(num);
 num++;
