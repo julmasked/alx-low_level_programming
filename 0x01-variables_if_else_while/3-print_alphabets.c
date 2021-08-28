@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
 /**
 *main: print alphabet
 *
@@ -9,7 +10,10 @@
 *
 *Return: 0 for sucess
 */
+
 int main(void)
+
+
 {
 char charact = 'a'
 while (charact <= 'z')
