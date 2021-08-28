@@ -1,9 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
+
+
 /**
+*main - print alphabet
+*
 *Description: print alphabet in lower case
 *and followed by a new line
+*
 *Return: 0 for success
 */
 
