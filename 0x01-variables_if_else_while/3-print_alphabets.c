@@ -15,15 +15,15 @@ int main(void)
 
 
 {
-char charact = 'a',
+char charact = 'a';
 
-(while (charact <= 'z')),
+for (charact <= 'z';
 {	
 putchar(charact);
 charact++;
 }
 
-while (charact <= 'Z')
+for (charact <= 'Z')
 {
 putchar(charact);
 charact++;
@@ -33,4 +33,3 @@ putchar('/n');
 
 return (0);
 }
-
