@@ -4,7 +4,7 @@
 
 /**
 *main - print letters
-*Description:alphabet in reverse 
+*Description:alphabet in revers
 *Return: 0 for success
 */
 int main(void)
