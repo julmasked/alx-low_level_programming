@@ -15,9 +15,10 @@ int main(void)
 
 
 {
-char charact = 'a'
-while (charact <= 'z')
-{
+char charact = 'a',
+
+while (charact <= 'z'),
+{	
 putchar(charact);
 charact++;
 }
