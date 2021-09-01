@@ -13,7 +13,11 @@ printf("Infinite loop incoming :(\n");
 
 i = 0;
 
-while (i < 10) /*tje value of i <= 0 */
+while (i < 10)
+/**
+*i never increment
+*the value of i <= 0 
+*/
 {
 putchar(i);
 }
