@@ -1,18 +1,10 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
-* main:take a pointer to an int
-* Return: always 0
-*/
+ * main :point to an int
+ * Return : always 0
+ */
 
-int main(void)
-
+void reset_to_98(int *n)
 {
-int *p;
-int n;
-
-n = 98;
-p = &n;
-return (0);
+	*n = 98;
 }
