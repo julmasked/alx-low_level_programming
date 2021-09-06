@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- * main :point to an int
- * Return : always 0
+ *reset_to_98 - set value of int to 98
+ *@n: address of value to change
+ *Description: resets *n to 98
+ * Return :void
  */
 
 void reset_to_98(int *n)
