@@ -1,6 +1,8 @@
 #include "main.h"
+
 /**
-*_strcat - concatenates two strings
+* main - check the code 
+* _strcat - concatenates two strings
 * @dest: destination char
 * @src: source char
 * Return: new char
