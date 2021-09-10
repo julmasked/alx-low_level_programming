@@ -8,21 +8,18 @@
 * Description: concatenates src to end of dest
 * Return: new char
 */
-
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int i;
+	int n = 0;
 
-	i = 0;
-
-	while (dest[i] != '\0')
-		i++;
-	for (j = 0; src[j] != '\0'; j++)
+	while (dest[n] != '\0')
 	{
-		dest[i] = src[j];
-		i++;
+		n++;
 	}
+	for (i = 0 ; i < n && src[i] != '\0' ; i++)
+		dest[n + i] = src[i];
+	dest[n + i] = '\0';
 
-	dest[i] = src[j];
 	return (dest);
 }
