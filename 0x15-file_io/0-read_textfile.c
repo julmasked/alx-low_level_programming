@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdlib.h"
+#include <stdlib.h>
 
 /**
  * read_textfile - Reads a text file and prints it to POSIX
@@ -20,12 +20,9 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (buffer == NULL)
 		return (0);
 
-	o = open
-		(filename, O_RDONLY);
-	r = read 
-		(o, buffer, letters);
-	w = write
-		(STDOUT-FILENO, buffer,r);
+	o = open(filename, O_RDONLY);
+	r = read (o, buffer, letters);
+	w = write(STDOUT_FILENO, buffer, r);
 
 	if (o == -1 || r == -1 || w == -1 ||  w != r)
 	{
